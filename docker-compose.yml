@@ -24,7 +24,7 @@ services:
       - --appendonly
       - "yes"
       - --maxmemory
-      - "256mb"
+      - "1gb"
       - --maxmemory-policy
       - volatile-lru
     volumes:
